@@ -14,7 +14,7 @@ class App extends Component {
                 <Header transparent title="Menu" style={{color: 'white'}}>
                     <Navigation>
                         <Link to="/">Home</Link> 
-                        <Link to="/about">About</Link>
+                        <Link to="/about">About me</Link>
                         <Link to="/resume">Resume</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
@@ -23,7 +23,7 @@ class App extends Component {
                 <Drawer title="Menu">
                     <Navigation>
                         <Link to="/">Home</Link> 
-                        <Link to="/about">About</Link>
+                        <Link to="/about">About me</Link>
                         <Link to="/resume">Resume</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
