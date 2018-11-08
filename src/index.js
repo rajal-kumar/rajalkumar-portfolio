@@ -9,6 +9,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Head from './components/Head'
 import LandingPage from './components/LandingPage'
+import Resume from './components/Resume'
 import Projects from './components/Projects'
 
 
@@ -16,10 +17,11 @@ ReactDOM.render(
   <Router>
     <div>
       <Route path="/" component={App} />
-      <Route exact path="/about" component={About} />
+      <Route exact path="/" component={LandingPage} />
+      <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/head" component={Head} />
-      <Route path="/" component={LandingPage} />
+      <Route path="/resume" component={Resume} />
       <Route path="/projects" component={Projects} />
     </div>
   </Router>

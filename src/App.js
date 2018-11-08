@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import './App.css';
 
@@ -10,20 +11,22 @@ class App extends Component {
       <div className="App">
       <div style={{height: '300px', position: 'relative'}}>
             <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-                <Header transparent title="Title" style={{color: 'white'}}>
+                <Header transparent title="Menu" style={{color: 'white'}}>
                     <Navigation>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
+                        <Link to="/">Home</Link> 
+                        <Link to="/about">About</Link>
+                        <Link to="/resume">Resume</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Title">
+                <Drawer title="Menu">
                     <Navigation>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
-                        <a href="/">Link</a>
+                        <Link to="/">Home</Link> 
+                        <Link to="/about">About</Link>
+                        <Link to="/resume">Resume</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Drawer>
                 <Content />
