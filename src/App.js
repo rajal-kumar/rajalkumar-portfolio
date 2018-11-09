@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
       <div className="big-content">
             <Layout>
-                <Header className="header-colour" transparent title="Menu" scroll>
+                <Header className="header-colour" transparent title="Rajal Kumar" scroll>
                     <Navigation>
                         <Link to="/">Home</Link> 
                         <Link to="/about">About me</Link>
