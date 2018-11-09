@@ -1,9 +1,21 @@
-.header-colour {
+.header-colour, .landing-grid {
   background: #0F2027;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.avatar-img {
+  height: 250px;
+  padding: 5em;
+}
+
+.banner-text {
+ background-color: black;
+ opacity: .8;
+ width: 75%;
+ margin: auto;
+ border-radius: 10px;
 }
