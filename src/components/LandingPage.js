@@ -10,6 +10,10 @@ class LandingPage extends Component {
               <img src="https://www.crust-media.com/img/team/prince-avatar.jpg" alt="avatar" className="avatar-img" />
               <div className="banner-text">
                 <h1>Fullstack Web Developer</h1>
+
+                <hr />
+
+                <p>HTML/CSS | JavaScript | React | React360/VR | NodeJS | Express | SQLiteDB | BootStrap | Bulma</p>
               </div>
             </Cell>
         </Grid>
