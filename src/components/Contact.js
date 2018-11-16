@@ -5,6 +5,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
+      <br />
+      <br />
         <h1>Contact</h1> 
         <h4>Github: Link to Github</h4>
         <h4>LinkedIn: Link to LinkedIn</h4>

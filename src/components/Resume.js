@@ -5,6 +5,8 @@ class Resume extends Component {
   render() {
     return (
       <div className="Resume">
+      <br />
+      <br />
         <h1>Resume</h1>
       </div>
     );

@@ -5,6 +5,8 @@ class Projects extends Component {
   render() {
     return (
       <div className="row">
+      <br />
+      <br />
           <h1>Projects</h1> 
         <div className="col">
         </div>
