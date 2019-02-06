@@ -19,9 +19,9 @@ class Projects extends Component {
             Lorem Ipsum is simply dummy text of the printing and typescripting industry. Lorem Ipsum has been the industry's
           </CardText>
           <CardActions border>
-            <Button coloured>GitHub</Button>
-            <Button coloured>CodePen</Button>
-            <Button coloured>Live Demo</Button>
+            <Button coloured='true'>GitHub</Button>
+            <Button coloured='true'>CodePen</Button>
+            <Button coloured='true'>Live Demo</Button>
           </CardActions>
           <CardMenu style={{colour: '#fff'}}>
             <IconButton name="share" />
@@ -34,9 +34,9 @@ class Projects extends Component {
             Lorem Ipsum is simply dummy text of the printing and typescripting industry. Lorem Ipsum has been the industry's
           </CardText>
           <CardActions border>
-            <Button coloured>GitHub</Button>
-            <Button coloured>CodePen</Button>
-            <Button coloured>Live Demo</Button>
+            <Button coloured='true'>GitHub</Button>
+            <Button coloured='true'>CodePen</Button>
+            <Button coloured='true'>Live Demo</Button>
           </CardActions>
           <CardMenu style={{colour: '#fff'}}>
             <IconButton name="share" />
@@ -49,9 +49,9 @@ class Projects extends Component {
             Lorem Ipsum is simply dummy text of the printing and typescripting industry. Lorem Ipsum has been the industry's
           </CardText>
           <CardActions border>
-            <Button coloured>GitHub</Button>
-            <Button coloured>CodePen</Button>
-            <Button coloured>Live Demo</Button>
+            <Button coloured='true'>GitHub</Button>
+            <Button coloured='true'>CodePen</Button>
+            <Button coloured='true'>Live Demo</Button>
           </CardActions>
           <CardMenu style={{colour: '#fff'}}>
             <IconButton name="share" />
