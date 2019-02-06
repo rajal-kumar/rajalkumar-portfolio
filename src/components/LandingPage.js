@@ -13,7 +13,7 @@ class LandingPage extends Component {
 
                 <hr />
 
-                <p>HTML/CSS | JavaScript | React | React360/VR | Redux | NodeJS | Express | SQLiteDB | BootStrap2</p>
+                <p>HTML/CSS | JavaScript | React | React360/VR | Redux | NodeJS | Express | SQL/liteDB | BootStrap2</p>
 
                 <div className="social-links">
                     {/* LinkedIn */}

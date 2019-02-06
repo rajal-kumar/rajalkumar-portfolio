@@ -7,6 +7,10 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.projects-grid {
+  display: flex;
+}
+
 .landing-grid {
   background: #0F2027;
   /* fallback for old browsers */
@@ -24,7 +28,7 @@
 
 .avatar-img {
   height: 250px;
-  padding: 5em;
+  padding-top: 5em;
 }
 
 .banner-text {
