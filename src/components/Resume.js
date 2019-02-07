@@ -55,7 +55,12 @@ class Resume extends Component {
 
             <h2>Experience</h2>
 
-              <Experience />
+              <Experience 
+                startYear={2017}
+                endYear={2017}
+                jobName={'Flick Electric Co.'}
+                jobDescription={'Billing Admin'}
+              />
 
           </Cell>
         </Grid>
