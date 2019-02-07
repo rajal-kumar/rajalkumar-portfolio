@@ -36,7 +36,12 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-              <Education />
+
+              <Education
+                startYear={2012}
+              />
+
+            
           </Cell>
         </Grid>
       </div>
