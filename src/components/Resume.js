@@ -39,9 +39,18 @@ class Resume extends Component {
 
               <Education
                 startYear={2012}
+                endYear={2016}
+                schoolName={'Victoria University of Wellington'}
+                schoolDescription={'Lorem Ipsum is simply dummy text'}
               />
 
-            
+              <Education
+                startYear={2017}
+                endYear={201}
+                schoolName={'Enspiral Dev Academy'}
+                schoolDescription={'Lorem Ipsum is simply dummy text'}
+              />
+            <hr style={{borderTop: '3px solid #e22947'}} />
           </Cell>
         </Grid>
       </div>
