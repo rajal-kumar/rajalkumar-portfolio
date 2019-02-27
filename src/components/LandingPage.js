@@ -7,7 +7,7 @@ class LandingPage extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
             <Cell col={12}>
-              <img src="https://www.crust-media.com/img/team/prince-avatar.jpg" alt="avatar" className="avatar-img" />
+              <img src="images/me.png" alt={"avatar"} className="avatar-img" />
               <div className="banner-text">
                 <h1>Fullstack Web Developer</h1>
 
@@ -21,7 +21,7 @@ class LandingPage extends Component {
                     <i className=" fa fa-linkedin-square" aria-hidden="true" />
                   </a>
                     { /* GitHub */ }
-                  <a href="https://github.com/rajal-kumar" rel="noopener noreferrer" target="_blank">
+                  <a href="https://github.com/rajal-kumar" rel="noopener noreferrer" target="_blank">
                     <i className=" fa fa-github-square" aria-hidden="true" />
                   </a>
                 </div>

@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Rajal Kumar</h2>
             <img 
-            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+            src="images/me.png"
             alt="avatar"
             style={{height: '250px'}}
             />
@@ -23,25 +23,25 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
               <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                   <i className="fa fa-slack" aria-hidden="true"/>
                   Rajal Kumar
                 </ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                   <i className="fa fa-envelope-square" aria-hidden="true"/>
                   rajalkumar@protonmail.com
                 </ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                   <i className="fa fa-linkedin-square" aria-hidden="true"/>
                   Rajal Kumar
                 </ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                   <i className="fa fa-github-square" aria-hidden="true"/>
                   rajal-kumar
                 </ListItemContent>
