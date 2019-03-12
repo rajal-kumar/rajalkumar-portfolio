@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Rajal Kumar</h2>
             <img 
-            src="images/me.png"
+            src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_African_Teenager-512.png"
             alt="avatar"
             style={{height: '250px'}}
             />
@@ -31,7 +31,7 @@ class Contact extends Component {
               <ListItem>
                 <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                   <i className="fa fa-envelope-square" aria-hidden="true"/>
-                  rajalkumar@protonmail.com
+                  rajalkumar@rajalmail.com
                 </ListItemContent>
               </ListItem>
               <ListItem>

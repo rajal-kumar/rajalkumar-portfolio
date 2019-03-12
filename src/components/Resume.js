@@ -16,7 +16,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img 
-              src="images/me.png"
+              src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_African_Teenager-512.png"
               alt="avatar"
               style={{height: '200px'}}
               />
@@ -31,7 +31,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>123 456 7890</p>
             <h5>Email</h5>
-            <p>rajalkumar@protonmail.com</p>
+            <p>rajalkumar@rajalmail.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #000000', width: '50%'}}/>
