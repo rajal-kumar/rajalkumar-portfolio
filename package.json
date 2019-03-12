@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^3.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-mdl": "^1.11.0",
@@ -23,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "engines": {
+    "node": "11.2.0"
+  }
 }
